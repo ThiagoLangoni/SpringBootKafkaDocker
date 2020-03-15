@@ -9,7 +9,7 @@ services:
       - "9092:9092"
     hostname: kafka
     environment:
-      - "ADVERTISED_HOST=0.0.0.0"
+      - "ADVERTISED_HOST=kafka"
       - "ADVERTISED_PORT=9092"
       - "AUTO_CREATE_TOPICS=true"
     command: >
